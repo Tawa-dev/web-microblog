@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 def create_app():
     app = Flask(__name__)
-    client = MongoClient("mongodb+srv://tawadev:tawadev@2021@cluster0.6geuj.mongodb.net/fullstack?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://tawadev:tawadev2021@cluster0.6geuj.mongodb.net/fullstack?retryWrites=true&w=majority")
     app.db = client.microblog
 
 
